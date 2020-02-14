@@ -9,9 +9,11 @@ const Movie = (props) => {
   const [saved, setSaved] = useState(false);
   const savedList = props.savedList;
 
+  
+
   useEffect(() => {
     const id = movieId;
-    
+
     // change ^^^ that line and grab the id from the URL
     // You will NEED to add a dependency array to this effect hook
 
