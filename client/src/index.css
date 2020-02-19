@@ -72,7 +72,7 @@ body {
 }
 .movie-list > a {
   text-decoration: none;
-  color: yellow;
+  color: orange;
 }
 
 .delete-button {
